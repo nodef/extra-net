@@ -1,6 +1,6 @@
 {
   "name": "extra-net",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Support methods for net module.",
   "main": "index.js",
   "scripts": {
