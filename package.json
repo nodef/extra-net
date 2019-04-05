@@ -1,6 +1,6 @@
 {
   "name": "extra-net",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Support methods for net module.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/nodef/extra-net/issues"
   },
-  "homepage": "https://github.com/nodef/extra-net#readme"
+  "homepage": "https://github.com/nodef/extra-net#readme",
+  "devDependencies": {
+    "ip": "^1.1.5"
+  }
 }

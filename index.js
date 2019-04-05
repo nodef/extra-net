@@ -3,8 +3,8 @@ const os = require('os');
 
 
 
-const OPTIONS = {
-  internal: false
+const ADDRESS = {
+  internal: false,
 };
 
 
@@ -16,7 +16,7 @@ function match(test, value) {
 }
 
 function address(options) {
-  var o = Object.assign({}, OPTIONS, options);
+  var o = Object.assign({}, ADDRESS, options);
   var nis = os.networkInterfaces();
   for(var k in nis) {
     for(var ni of nis[k])
@@ -24,5 +24,19 @@ function address(options) {
   }
   return {};
 }
+
+function freePort(host) {
+  var s = net.createServer();
+  return new Promise((fres, frej) => {
+    s.listen(0, host, () => {
+      var {port} = s.address();
+      s.once('close', () => fres(port));
+      s.close();
+    });
+    s.on('error', frej);
+  });
+}
+
 net.address = address;
+net.freePort = freePort;
 module.exports = net;
