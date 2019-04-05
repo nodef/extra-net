@@ -1,4 +1,4 @@
-Support methods for net module.
+Support methods for [Net module].
 > - Need machine's public IP address?<br>
 > - Need a free port for container?<br>
 
@@ -38,3 +38,6 @@ net.freePort([host]);
 host = String  // e.g., '127.0.0.1'
 -> Promise port
 ```
+
+
+[Net module]: https://nodejs.org/api/net.html
