@@ -1,6 +1,6 @@
 {
   "name": "extra-net",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Support methods for net module.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,11 @@
     "utility",
     "method",
     "module",
+    "public",
+    "ip",
+    "address",
+    "free",
+    "port",
     "merferry"
   ],
   "author": "wolfram77@gmail.com",
