@@ -5,6 +5,7 @@ const os = require('os');
 
 const ADDRESS = {
   internal: false,
+  family: 'IPv4',
 };
 
 
