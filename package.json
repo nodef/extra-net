@@ -1,6 +1,6 @@
 {
   "name": "extra-net",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Support methods for net module.",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/nodef/extra-net#readme",
   "devDependencies": {
-    "extra-build": "^2.2.43",
+    "extra-build": "^2.3.0",
     "ip": "^2.0.1"
   }
 }
