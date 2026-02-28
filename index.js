@@ -38,6 +38,6 @@ function freePort(host) {
   });
 }
 
-net.address = address;
+net.address  = address;
 net.freePort = freePort;
 module.exports = net;

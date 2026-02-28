@@ -1,5 +1,3 @@
 # Build
-_config.yml
-_test.js
-.travis.yml
+test.js
 TODO

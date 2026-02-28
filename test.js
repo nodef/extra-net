@@ -1,5 +1,5 @@
-const ip = require('ip');
-const net = require('./');
+const ip  = require('ip');
+const net = require('.');
 
 
 async function address() {

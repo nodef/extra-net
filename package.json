@@ -30,9 +30,5 @@
   "bugs": {
     "url": "https://github.com/nodef/extra-net/issues"
   },
-  "homepage": "https://github.com/nodef/extra-net#readme",
-  "devDependencies": {
-    "extra-build": "^2.3.0",
-    "ip": "^2.0.1"
-  }
+  "homepage": "https://github.com/nodef/extra-net#readme"
 }
